@@ -1,0 +1,22 @@
+* {
+  background-color: black;
+}
+.container {
+  background-color: black;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+  color: white;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Space Mono", monospace;
+  text-transform: uppercase;
+}
+
+img {
+  border: 5px solid white;
+  width: 100%;
+}
