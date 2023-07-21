@@ -1,0 +1,39 @@
+/*
+group elements
+element1, element2 (target both)
+*/
+
+h1,
+h2 {
+  color: blueviolet;
+}
+
+/*
+parent > direct chid {
+}
+*/
+
+.box > .done {
+  color: firebrick;
+}
+
+ul > p.done {
+  font-size: 0.5rem;
+}
+
+/*
+parent any-level-chid {
+}
+*/
+
+.box li {
+  color: blue;
+}
+
+/*
+chaining elements
+*/
+
+li.done {
+  color: green;
+}
